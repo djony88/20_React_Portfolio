@@ -1,0 +1,28 @@
+{
+  "name": "20_react_portfolio",
+  "version": "1.0.0",
+  "description": "UCSD-SD-FSF-PT-03-2021-U-C",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3",
+    "y": "^0.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djony88/20_React_Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djony88/20_React_Portfolio/issues"
+  },
+  "homepage": "https://github.com/djony88/20_React_Portfolio#readme"
+}
