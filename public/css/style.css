@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0c2e3f;
+;
+}
+/* Adding style to header and navigation bar. */
+.container-header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #0c2e3f;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    background-color: #24c997;
+    color: #ffffff;
+    padding-right: 10px;
+    padding-left: 60px;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    color: #ffffff;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+
+}
+/* Stiling navigation bar */
+nav ul {
+   display:inline-block;
+   margin-left: 15px;
+   list-style-type: none;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+a {
+    position: relative;
+    text-decoration:underline;
+    color:#24c997;
+    padding-top: 15px;
+    margin-right: 20px;
+}
+/* Adding picure of me. :) */
+.ME {
+    border:3px solid #24c997;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    margin-bottom: 25px;
+    background-image: url("../images/Me_4.jpg");
+    background-size: cover;
+    margin: auto;
+}
+
+.bio {
+width:66%;
+}
+
+.aboutMeImage {
+    width: 250px;
+    
+}
+
+/* Adding about me section. */
+.About-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    background-color: #0c2e3f;
+    color: #ffffff;
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* Adding My work section */
+.My-work {
+    margin-bottom: 20px;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    background-color: #0c2e3f;
+    color: #ffffff;
+    width:100%;
+}
+/* Adding picure style */
+.img_1 {
+    padding: 10px;
+}
+
+.img_2 {
+    padding: 10px;
+}
+
+.img_3 {
+    padding:10px;
+}
+/* linkedin badge */
+.badge-base{
+    float:right;
+
+}
+
+/* Adding my contact info */
+.Contact-me {
+    margin-bottom: 20px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    background-color: #0c2e3f;
+    color: #ffffff;
+    width:100%;
+}
+
+/* Adding media query for mobile responsiveness */
+@media screen and (max-width: 990px) {
+
+    .bio {
+        width:100%;
+    }
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+   background-color: #12658f;
+   margin: 9px 22px 8px -8px;
+   padding: 8px 8px;
+   border-radius: 1.5rem;
+}
+
+.bg-info {
+    background-color: #12658f!important;
+    color: white!important;
+    border-radius: 1.5rem;
+}
+
+.ekko-lightbox-nav-overlay a {
+    color: goldenrod;
+}
+.gallery-title {
+    text-align: center;
+	font-weight: 500;
+	border-bottom: 1px dotted orange;
+	margin-top: 1em;
+}
+
+.card {
+    border-radius: 0.25rem;
+}
+
+.img-fluid {
+    width: 300px;
+    height: 160px;
+    margin-left: 130px;
+}
+
+.centered {
+    position: relative;
+    top: 50%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* .centered_2 {
+    position: absolute;
+    top: 87%;
+    left: 94%;
+    transform: translate(-50%, -50%);
+  } */
