@@ -3,146 +3,33 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/default.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/layout.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/media-queries.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/popup.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Nikola Portfolio</title>
 </head>
 
 <body>
-    <!-- Adding header and navigation bar. -->
-    <header class="container-header">
-        <h1>Nikola Stamenkovic</h1>
-        <img id="fixed-box">
-        <nav class="nav navbar-nav ml-auto navbar-expand-lg navbar-dark bg-dark">
-            <ul class="nav nav-pills">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#About-me">About me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#My-work">Work</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#Contact-me">Contact me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="assets\resume\Nikola Resume.pdf" download>Resume</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
     <div id="root"></div>
 
-<!-- Adding my picture to the page. -->
-    <main class="container">
-        <section class="ME">
-            <img src="./img/Me_4.jpg" class="ME">
-        </section>
-<!-- Adding first contend to the page with picure and paragrafh about me. -->
-<section>
-    <div class="container">
-        <div id="About-me" class="About-me">
-            <div class="bio">
-                <h2>
-                    <span class="badge bg-info text-dark">About me</span>
-                </h2>
-                <p>
-                    After finishing Civil Engineering in 2010 in Serbia I started working in structural engineering firm in 2016 and worked on high-end residental houses. Gane a lot of experience and after 4 and a half years decided to try Web develoment and coding. Web development and coding was something that I always wanted to learn. Started UCSD Extension bootcamp for Web develompent and Coding in March 2021...
-                </p>
-            </div>  
-            <img src="./img/civil_engneer.jpg" class="aboutMeImage" />
-         </div>
-    </div>
-</section>
 
-<!-- Adding my work info and pictures. -->
-<section>
-    <div class="My Work">
-        <div class="container">
-            <div id= "My-work" class="My-work">
-             <h3>
-                <span class="badge bg-info text-dark">My work</span>
-            </h3>
-                <div class="row">
-                    <!-- Work day schedule -->
-                    <li class="list-inline-item">
-                        <a href="#" data-toggle="tooltip" title="A much longer tooltip to demonstrate the max-width of the Bootstrap tooltip.">Large tooltip</a>
-                    </li>
-                    <div class="centered">Work Day Scehduler</div>
-                    <a href="https://djony88.github.io/05_Work_Day_Scheduler/" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-6 col-md-4 col-lg-3 item">
-                    <img src="./img/05-Work-Day-Scheduler.png" class="img-fluid card" data-toggle="tooltip" title="A much longer tooltip to demonstrate the max-width of the Bootstrap tooltip."> 
-                    </a>
-            
-                    <!-- Weather app -->
-                    <div class="centered_2">Weather App</div>
-                    <a href="https://djony88.github.io/06_Weather_App/" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-6 col-md-4 col-lg-3 item">
-                    <img src="./img/Weather_App.png" class="img-fluid card">
-                    </a>
-            
-                    <!-- Group Project 1 - Movie Buffs -->
-                    <a href="https://jg-77.github.io/Movie-Buffs-Group-Project/?" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-6 col-md-4 col-lg-3 item">
-                    <img src="./img/Movie_Buffs.png" class="img-fluid card">
-                    </a>
-            
-                    <!-- Simpple README Generator -->
-                    <a href="https://github.com/djony88/10_README_Generator" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-6 col-md-4 col-lg-3 item">
-                    <img src="./img/README_generator.gif" class="img-fluid card">
-                    </a>
-            
-                    <!-- Note Taker App -->
-                    <a href="https://damp-river-55680.herokuapp.com/" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-6 col-md-4 col-lg-3 item">
-                    <img src="./img/Notes_App.png" class="img-fluid card">
-                    </a>
-            
-                    <!-- Employee Taker App -->
-                    <a href="https://github.com/djony88/12_Employee_Tracker" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-6 col-md-4 col-lg-3 item">
-                    <img src="./img/Employee_ Tracker.gif" class="img-fluid card">
-                    </a>
-            
-                    <!-- Tech Blog App -->
-                    <a href="https://gentle-sands-99944.herokuapp.com/" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-6 col-md-4 col-lg-3 item">
-                    <img src="./img/Tech_Blog_App.PNG" class="img-fluid card">
-                    </a>
-            
-                    <!-- Groop Project 2 - Hotel Coding -->
-                    <a href="https://hotel-coding.herokuapp.com/" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-6 col-md-4 col-lg-3 item">
-                    <img src="./img/Hotel_Coding.PNG" class="img-fluid card">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>   
 
-<!-- Adding Contact me section. -->
-    <section>
-        <div class="Contact Me"></div>
-        <div class="row">
-            <div id= "Contact-me" class="Contact-me">
-                <h4>
-                    <span class="badge bg-info text-dark">Contact me</span>
-                </h4>
-                <ul class="nav nav-pills">
-                    <a class="nav-link active" aria-current="page" href="tel:619-808-8102">619.808.8102</a>
-                    
-                    <a class="nav-link active" aria-current="page" href="mailto: 88djony@gmail.com">Send Email</a>
-                    
-                    <!-- Linkedin profile -->
-                    
-                    <a class="nav-link active" aria-current="page" href="https://www.linkedin.com/in/nikola-stamenkovic?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BP0OBfJUiRVquA%2B%2BHZ1bBuw%3D%3D">LinkedIn</a>
-                    
-                    <!-- GitHub profile -->
-                    <a class="nav-link active" aria-current="page" href="https://github.com/djony88">GitHub</a>
-                    
-                    <!-- Twitter follow badge -->
-                    <a href="https://twitter.com/StamNikola?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @StamNikola</a>
-                </ul> 
-            </div>
-        </div>
-    </section>  
-</main>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </body>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
+  </body>
 </html>
