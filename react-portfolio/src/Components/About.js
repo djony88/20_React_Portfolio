@@ -8,7 +8,7 @@ const About = () => {
             <div className="ME">
                 <img src={ME} />
             </div>
-        <div id="About-me" class="About-me">
+        <div id="About-me" class="body">
             <div class="bio">
                 <h2>
                     <span class="badge bg-info text-dark">About me</span>
@@ -24,4 +24,4 @@ const About = () => {
     )
 }
 
-export default About
+export default About;

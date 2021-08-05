@@ -1,15 +1,15 @@
 import React from 'react';
 // const { SocialIcon } = require('react-social-icons');
 // React.render(<SocialIcon url="https://www.linkedin.com/in/nikola-stamenkovic/" />, document.body);
+import Resume from '../Components/resume/Nikola_Resume.pdf';
 
 const Contact = () => {
     return (
         <section id="contact">
-        <div className="row section-head">
+        <div className="row">
             
             <div className="two columns header-col">
                 <h1>
-                    
                     <span>Get in touch.</span>
                 </h1>
             </div>
@@ -62,6 +62,11 @@ const Contact = () => {
                         <div className = "widget widget_contact">
                             <h4>Phone Number</h4>
                             <a className="phone" aria-current="page" href="tel:619-808-8102">619.808.8102</a>
+                        </div>
+
+                        <div>
+                            <h4>Resume</h4>
+                            <a class="nav-link active" aria-current="page" href={Resume}>Resume</a>
                         </div>
 
                         <div className = "widget widget_contact">

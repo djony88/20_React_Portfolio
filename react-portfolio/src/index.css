@@ -10,17 +10,53 @@
    margin: auto;
 }
 
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+body{
+   margin: 1px;
+   padding: 1px;
+   border: 0;
+   outline: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
+   background-image: url("./img/1.jpg");
+   background-size: auto;
+}
+
+/* section {
+   background-image: url("./img/1.jpg");
+} */
+
+div {
+   margin: 1px;
+   padding: 1px;
+   border: 0;
+   outline: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
+   /* background-image: url("./img/1.jpg"); */
+   background-size: auto;
+}
+
+nav {
+   display:inline-block;
+   margin-left: 15px;
+   list-style-type: none;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+html, object, iframe, blockquote, pre,
 abbr, address, cite, code,
 del, dfn, em, img, ins, kbd, q, samp,
 small, strong, sub, sup, var,
 b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
+dl, dt, dd,
+form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
+footer, header, hgroup, menu, summary,
 time, mark, audio, video {
    margin: 1px;
    padding: 1px;
@@ -107,25 +143,24 @@ html {
 }
 
 body {
-   background: #fff;
    font-family: 'opensans-regular', sans-serif;
    font-weight: normal;
-   font-size: 15px;
+   font-size: 25px;
    line-height: 30px;
-	color: #c1c1c1;
+	color: #000000;
 
    -webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-   color: #c1c1c1;
+   color: #000000;
 	font-family: 'opensans-bold', sans-serif;
    font-weight: normal;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 h1 { font-size: 38px; line-height: 42px; margin-bottom: 12px; letter-spacing: -1px; }
-h2 { font-size: 28px; line-height: 36px; margin-bottom: 6px; }
+h2 { font-size: 35px; line-height: 36px; margin-bottom: 6px; }
 h3 { font-size: 22px; line-height: 30px; margin-bottom: 12px; }
 h4 { font-size: 20px; line-height: 30px; margin-bottom: 6px; }
 h5 { font-size: 18px; line-height: 30px; }
@@ -231,7 +266,8 @@ hr { border: solid #E3E3E3; border-width: 1px 0 0; clear: both; margin: 11px 0 3
 a, a:visited {
    text-decoration: none;
    outline: 0;
-   color: #11ABB0;
+   color: #24c997;
+   padding: 1rem;
 
    -webkit-transition: color .3s ease-in-out;
    -moz-transition: color .3s ease-in-out;
@@ -241,20 +277,15 @@ a, a:visited {
 a:hover, a:focus { color: #313131; }
 p a, p a:visited { line-height: inherit; }
 
-ul, ol { margin-bottom: 24px; margin-top: 12px; }
-ul { list-style: none outside; }
-ol { list-style: decimal; }
-ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
-ul.square { list-style: square outside; }
-ul.circle { list-style: circle outside; }
-ul.disc { list-style: disc outside; }
-ul ul, ul ol,
-ol ol, ol ul { margin: 6px 0 6px 30px; }
-ul ul li, ul ol li,
-ol ol li, ol ul li { margin-bottom: 6px; }
-li { line-height: 18px; margin-bottom: 12px; }
-ul.large li { }
-li p { }
+
+ul {
+   display:inline-block;
+   margin-left: 15px;
+   list-style-type: none;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
 
 .stats-tabs {
    padding: 0;
@@ -375,6 +406,9 @@ dd { margin: 0 0 0 20px; }
 img {
    max-width: 100%;
    height: auto;
+   /* width: 300px; */
+   /* height: 160px; */
+   margin-left: auto;
 }
 img.pull-right { margin: 12px 0px 0px 18px; }
 img.pull-left { margin: 12px 18px 0px 0px; }
@@ -445,7 +479,7 @@ input::-moz-focus-inner {
 }
 
 form { margin-bottom: 24px; }
-fieldset { margin-bottom: 24px; }
+/* fieldset { margin-bottom: 24px; } */
 
 input[type="text"],
 input[type="password"],
@@ -534,8 +568,8 @@ input[type="checkbox"] { display: inline; }
 .row.collapsed > .columns,
 .column.collapsed, .columns.collapsed  { padding: 0; }
 
-[class*="column"] + [class*="column"]:last-child { float: right; }
-[class*="column"] + [class*="column"].end { float: right; }
+/* [class*="column"] + [class*="column"]:last-child { float: right; }
+[class*="column"] + [class*="column"].end { float: right; } */
 
 .row .one         { width: 8.33333%; }
 .row .two         { width: 16.66667%; }

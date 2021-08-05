@@ -10,7 +10,7 @@ import {
   import About from './Components/About';
   import Contact from './Components/Contact';
   import Portfolio from './Components/Portfolio';
-  import Resume from './Components/Resume';
+  // import Resume from './Components/Resume';
 
   function App() {
     return (
@@ -28,16 +28,16 @@ import {
             <li>
               <Link to="/portfolio">Portfolio</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/resume">Resume</Link>
-            </li>
+            </li> */}
           </ul>
         </nav>
         <Switch>
         <Route exact path ='/' component={About}/>
             <Route path = '/contact' component={Contact}/>
             <Route path='/portfolio' component = {Portfolio}/>
-            <Route path='/resume' component = {Resume} />
+            {/* <Route path='/resume' component = {Resume} /> */}
         </Switch>
            </div>
            </Router>
