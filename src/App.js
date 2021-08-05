@@ -10,42 +10,8 @@ import {
   import About from './Components/About';
   import Contact from './Components/Contact';
   import Portfolio from './Components/Portfolio';
-  import Resume from './Components/Resume';
+  // import Resume from './Components/Resume';
 
-  // class App extends Component {
-
-  //   constructor(props){
-  //     super(props);
-  //     this.state = {
-  //       foo: 'bar',
-  //       resumeData: {}
-  //     };
-  
-  //     ReactGA.initialize('UA-110570651-1');
-  //     ReactGA.pageview(window.location.pathname);
-  
-  //   }
-  
-  //   getResumeData(){
-  //     $.ajax({
-  //       url:'./resumeData.json',
-  //       dataType:'json',
-  //       cache: false,
-  //       success: function(data){
-  //         this.setState({resumeData: data});
-  //       }.bind(this),
-  //       error: function(xhr, status, err){
-  //         console.log(err);
-  //         alert(err);
-  //       }
-  //     });
-  //   }
-  
-  //   componentDidMount(){
-  //     this.getResumeData();
-  //   }
-
-  
   function App() {
     return (
         <div>
@@ -62,16 +28,16 @@ import {
             <li>
               <Link to="/portfolio">Portfolio</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/resume">Resume</Link>
-            </li>
+            </li> */}
           </ul>
         </nav>
         <Switch>
         <Route exact path ='/' component={About}/>
             <Route path = '/contact' component={Contact}/>
             <Route path='/portfolio' component = {Portfolio}/>
-            <Route path='/resume' component = {Resume} />
+            {/* <Route path='/resume' component = {Resume} /> */}
         </Switch>
            </div>
            </Router>
