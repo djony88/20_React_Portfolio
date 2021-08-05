@@ -14,6 +14,8 @@ Requirement:
 * On clicking on Portfolio it opnes a page with work sampless with screenshots or gif files with name and technologies underneath thats been used to create that app.
 * On click on any of the work samples it will take you to deployed app page.
 
-![Screenshot 1](20_React_Portfolio\src\img\1.png)
-![Screenshot 2](20_React_Portfolio\src\img\2.png)
-![Screenshot 3](20_React_Portfolio\src\img\3.png)
+![Screenshot 1](./src/img/1.png)
+
+![Screenshot 2](./src/img/2.png)
+
+![Screenshot 3](./src/img/3.png)
