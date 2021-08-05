@@ -587,7 +587,6 @@ input[type="checkbox"] { display: inline; }
 
 @media only screen and (max-width: 900px) {
 
-   /* block grids on small screens */
    .s-bgrid-sixths [class*="column"]   { width: 16.66667%; }
    .s-bgrid-quarters [class*="column"] { width: 25%; }
    .s-bgrid-thirds [class*="column"]   { width: 33.33333%; }
