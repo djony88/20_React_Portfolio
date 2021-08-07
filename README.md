@@ -4,7 +4,7 @@ UCSD-SD-FSF-PT-03-2021-U-C
 
 [GitHub Link](https://github.com/djony88/20_React_Portfolio)
 
-[Deployed App]()
+[Deployed App](https://djony88.github.io/20_React_Portfolio/)
 
 Requirement:
 
