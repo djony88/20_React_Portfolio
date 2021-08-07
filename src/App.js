@@ -34,9 +34,9 @@ import {
           </ul>
         </nav>
         <Switch>
-        <Route exact path ='/' component={About}/>
             <Route path = '/contact' component={Contact}/>
             <Route path='/portfolio' component = {Portfolio}/>
+            <Route path ='/' component={About}/>
             {/* <Route path='/resume' component = {Resume} /> */}
         </Switch>
            </div>
