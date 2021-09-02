@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/20_React_Portfolio/static/css/main.214e38db.chunk.css",
-    "main.js": "/20_React_Portfolio/static/js/main.0633200b.chunk.js",
-    "main.js.map": "/20_React_Portfolio/static/js/main.0633200b.chunk.js.map",
+    "main.js": "/20_React_Portfolio/static/js/main.14ac1fa3.chunk.js",
+    "main.js.map": "/20_React_Portfolio/static/js/main.14ac1fa3.chunk.js.map",
     "runtime-main.js": "/20_React_Portfolio/static/js/runtime-main.8159c786.js",
     "runtime-main.js.map": "/20_React_Portfolio/static/js/runtime-main.8159c786.js.map",
     "static/js/2.c6f4a227.chunk.js": "/20_React_Portfolio/static/js/2.c6f4a227.chunk.js",
@@ -15,7 +15,7 @@
     "static/media/Hotel_Coding.433c52c3.PNG": "/20_React_Portfolio/static/media/Hotel_Coding.433c52c3.PNG",
     "static/media/Me_4.ac008f8e.jpg": "/20_React_Portfolio/static/media/Me_4.ac008f8e.jpg",
     "static/media/Movie_Buffs.c323f863.png": "/20_React_Portfolio/static/media/Movie_Buffs.c323f863.png",
-    "static/media/Nikola_Resume.6963898b.pdf": "/20_React_Portfolio/static/media/Nikola_Resume.6963898b.pdf",
+    "static/media/Nikola_Resume.f6b4bb76.pdf": "/20_React_Portfolio/static/media/Nikola_Resume.f6b4bb76.pdf",
     "static/media/Notes_App.3f241896.png": "/20_React_Portfolio/static/media/Notes_App.3f241896.png",
     "static/media/README_generator.e1ebe10f.gif": "/20_React_Portfolio/static/media/README_generator.e1ebe10f.gif",
     "static/media/Tech_Blog_App.9c1e000d.PNG": "/20_React_Portfolio/static/media/Tech_Blog_App.9c1e000d.PNG",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.8159c786.js",
     "static/js/2.c6f4a227.chunk.js",
     "static/css/main.214e38db.chunk.css",
-    "static/js/main.0633200b.chunk.js"
+    "static/js/main.14ac1fa3.chunk.js"
   ]
 }
