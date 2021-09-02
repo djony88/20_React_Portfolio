@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/20_React_Portfolio/static/css/main.f089cd25.chunk.css",
+    "main.css": "/20_React_Portfolio/static/css/main.214e38db.chunk.css",
     "main.js": "/20_React_Portfolio/static/js/main.0633200b.chunk.js",
     "main.js.map": "/20_React_Portfolio/static/js/main.0633200b.chunk.js.map",
     "runtime-main.js": "/20_React_Portfolio/static/js/runtime-main.8159c786.js",
@@ -8,7 +8,7 @@
     "static/js/2.c6f4a227.chunk.js": "/20_React_Portfolio/static/js/2.c6f4a227.chunk.js",
     "static/js/2.c6f4a227.chunk.js.map": "/20_React_Portfolio/static/js/2.c6f4a227.chunk.js.map",
     "index.html": "/20_React_Portfolio/index.html",
-    "static/css/main.f089cd25.chunk.css.map": "/20_React_Portfolio/static/css/main.f089cd25.chunk.css.map",
+    "static/css/main.214e38db.chunk.css.map": "/20_React_Portfolio/static/css/main.214e38db.chunk.css.map",
     "static/js/2.c6f4a227.chunk.js.LICENSE.txt": "/20_React_Portfolio/static/js/2.c6f4a227.chunk.js.LICENSE.txt",
     "static/media/layout.css": "/20_React_Portfolio/static/media/2.a8a65bbd.jpg",
     "static/media/Employee_ Tracker.af7668b3.gif": "/20_React_Portfolio/static/media/Employee_ Tracker.af7668b3.gif",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.8159c786.js",
     "static/js/2.c6f4a227.chunk.js",
-    "static/css/main.f089cd25.chunk.css",
+    "static/css/main.214e38db.chunk.css",
     "static/js/main.0633200b.chunk.js"
   ]
 }
