@@ -1,31 +1,33 @@
 {
   "files": {
-    "main.css": "/20_React_Portfolio/static/css/main.5e9799ad.chunk.css",
-    "main.js": "/20_React_Portfolio/static/js/main.7e576541.chunk.js",
-    "main.js.map": "/20_React_Portfolio/static/js/main.7e576541.chunk.js.map",
+    "main.css": "/20_React_Portfolio/static/css/main.f089cd25.chunk.css",
+    "main.js": "/20_React_Portfolio/static/js/main.0633200b.chunk.js",
+    "main.js.map": "/20_React_Portfolio/static/js/main.0633200b.chunk.js.map",
     "runtime-main.js": "/20_React_Portfolio/static/js/runtime-main.8159c786.js",
     "runtime-main.js.map": "/20_React_Portfolio/static/js/runtime-main.8159c786.js.map",
-    "static/js/2.7f9a925e.chunk.js": "/20_React_Portfolio/static/js/2.7f9a925e.chunk.js",
-    "static/js/2.7f9a925e.chunk.js.map": "/20_React_Portfolio/static/js/2.7f9a925e.chunk.js.map",
+    "static/js/2.c6f4a227.chunk.js": "/20_React_Portfolio/static/js/2.c6f4a227.chunk.js",
+    "static/js/2.c6f4a227.chunk.js.map": "/20_React_Portfolio/static/js/2.c6f4a227.chunk.js.map",
     "index.html": "/20_React_Portfolio/index.html",
-    "static/css/main.5e9799ad.chunk.css.map": "/20_React_Portfolio/static/css/main.5e9799ad.chunk.css.map",
-    "static/js/2.7f9a925e.chunk.js.LICENSE.txt": "/20_React_Portfolio/static/js/2.7f9a925e.chunk.js.LICENSE.txt",
+    "static/css/main.f089cd25.chunk.css.map": "/20_React_Portfolio/static/css/main.f089cd25.chunk.css.map",
+    "static/js/2.c6f4a227.chunk.js.LICENSE.txt": "/20_React_Portfolio/static/js/2.c6f4a227.chunk.js.LICENSE.txt",
     "static/media/layout.css": "/20_React_Portfolio/static/media/2.a8a65bbd.jpg",
     "static/media/Employee_ Tracker.af7668b3.gif": "/20_React_Portfolio/static/media/Employee_ Tracker.af7668b3.gif",
     "static/media/Hotel_Coding.433c52c3.PNG": "/20_React_Portfolio/static/media/Hotel_Coding.433c52c3.PNG",
     "static/media/Me_4.ac008f8e.jpg": "/20_React_Portfolio/static/media/Me_4.ac008f8e.jpg",
     "static/media/Movie_Buffs.c323f863.png": "/20_React_Portfolio/static/media/Movie_Buffs.c323f863.png",
-    "static/media/Nikola_Resume.2b7b986b.pdf": "/20_React_Portfolio/static/media/Nikola_Resume.2b7b986b.pdf",
+    "static/media/Nikola_Resume.6963898b.pdf": "/20_React_Portfolio/static/media/Nikola_Resume.6963898b.pdf",
     "static/media/Notes_App.3f241896.png": "/20_React_Portfolio/static/media/Notes_App.3f241896.png",
     "static/media/README_generator.e1ebe10f.gif": "/20_React_Portfolio/static/media/README_generator.e1ebe10f.gif",
     "static/media/Tech_Blog_App.9c1e000d.PNG": "/20_React_Portfolio/static/media/Tech_Blog_App.9c1e000d.PNG",
     "static/media/Weather_App.0f262b0c.png": "/20_React_Portfolio/static/media/Weather_App.0f262b0c.png",
-    "static/media/Work_Day_Scheduler.382d9dba.png": "/20_React_Portfolio/static/media/Work_Day_Scheduler.382d9dba.png"
+    "static/media/Work_Day_Scheduler.382d9dba.png": "/20_React_Portfolio/static/media/Work_Day_Scheduler.382d9dba.png",
+    "static/media/news_hawker.da18b117.png": "/20_React_Portfolio/static/media/news_hawker.da18b117.png",
+    "static/media/index.css": "/20_React_Portfolio/static/media/paper.f96ce187.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.8159c786.js",
-    "static/js/2.7f9a925e.chunk.js",
-    "static/css/main.5e9799ad.chunk.css",
-    "static/js/main.7e576541.chunk.js"
+    "static/js/2.c6f4a227.chunk.js",
+    "static/css/main.f089cd25.chunk.css",
+    "static/js/main.0633200b.chunk.js"
   ]
 }
