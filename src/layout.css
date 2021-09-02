@@ -601,38 +601,23 @@ ul#nav li.current a { color: #fe6928; }
     cursor: default;
 }
 
-/* #contact {
-   background: #191919;
-   padding-top: 96px;
-   padding-bottom: 102px;
-   color: #636363;
-} */
-/* #contact .section-head { margin-bottom: 42px; } */
-
-#contact a, #contact a:visited  { color: #0762f9; }
-#contact a:hover, #contact a:focus { color: #fff; }
+#contact a, #contact a:visited  { 
+   color: #0084ff; 
+}
+#contact a:hover, #contact a:focus { 
+   color: rgb(74, 3, 95); 
+}
 
 #contact h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
-   color: #EBEEEE;
+   color: #000000;
    margin-bottom: 6px;
 }
-/* #contact h1 span { display: none; }
-#contact h1:before {
-   font-family: 'FontAwesome';
-   content: "\f0e0";
-	padding-right: 10px;
-	font-size: 72px;
-   line-height: 72px;
-   text-align: left;
-   float: left;
-   color: #ebeeee;
-} */
 
 #contact h4 {
-   font: 16px/24px 'opensans-bold', sans-serif;
+   font: 22px 'opensans-bold', sans-serif;
    color: #EBEEEE;
    margin-bottom: 6px;
 }
@@ -640,11 +625,17 @@ ul#nav li.current a { color: #fe6928; }
    font: 18px/36px 'opensans-light', sans-serif;
    padding-right: 3%;
 }
+
 #contact .header-col { padding-top: 6px; }
 
-#contact form { margin-bottom: 30px; }
+#contact form { 
+   background-color: #647373;
+   border: 3px solid #000000;
+   margin-bottom: 30px; 
+}
+
 #contact label {
-   font: 15px/24px 'opensans-bold', sans-serif;
+   font: 22px 'opensans-bold', sans-serif;
    margin: 12px 0;
    color: #EBEEEE;
 	display: inline-block;
@@ -656,7 +647,7 @@ ul#nav li.current a { color: #fe6928; }
 #contact select {
    padding: 10px 20px;
 	color: #eee;
-	background: #373233;
+	background: #adadad;
 	margin-bottom: 42px;
 	border: 0;
 	outline: none;
@@ -679,7 +670,7 @@ ul#nav li.current a { color: #fe6928; }
    cursor: pointer;
    height: auto;
    display: inline-block;
-	border-radius: 0px;
+	border-radius: 15px;
    margin-left: 26%;
 }
 #contact button.submit:hover {

@@ -1,5 +1,6 @@
 import React from 'react';
 
+import News_Hawker from '../img/news_hawker.png';
 import Work_Day_Scheduler from '../img/Work_Day_Scheduler.png';
 import Weather_App from '../img/Weather_App.png';
 import Movie_Buffs from '../img/Movie_Buffs.png';
@@ -17,6 +18,34 @@ const Portfolio = () => {
             
             <div className="columns collapsed">
                 <h1>PROJECTS</h1>
+                <div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-thirds cf">
+                    <div className="item-wrap">
+                        <a href="https://news-hawker.herokuapp.com/" target="_blank" title="Weather App" rel="noreferrer">
+                            <img alt="News Hawker" src={News_Hawker}/>
+                            <div className="overlay">
+                                <div className="portfolio-item-meta">
+                                    <h5>News Hawker</h5>
+                                    <p>MERN full-stack(Mongoose, Express, React, and Node), Apollo, gNews API, Lordicon, JS, CSS</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-thirds cf">
+                    <div className="item-wrap">
+                        <a href="https://hotel-coding.herokuapp.com/" target="_blank" title="Hotel Coding" rel="noreferrer">
+                            <img alt="Hotel Coding" src={Hotel_Coding}/>
+                            <div className="overlay">
+                                <div className="portfolio-item-meta">
+                                    <h5>Hotel Coding</h5>
+                                    <p>Handlebars, Node.js, MySQL, CSS, JS, Heroku, npm libraries: dotenv, express, express-handlebars, express-session, bcrypt, bad-words</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
                 <div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-thirds cf">
                     <div className="item-wrap">
                         <a href="https://djony88.github.io/05_Work_Day_Scheduler/" target="_blank" title="Work Day Scheduler" rel="noreferrer">
@@ -115,19 +144,6 @@ const Portfolio = () => {
                     </div>
                 </div>
 
-                <div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-thirds cf">
-                    <div className="item-wrap">
-                        <a href="https://hotel-coding.herokuapp.com/" target="_blank" title="Hotel Coding" rel="noreferrer">
-                            <img alt="Hotel Coding" src={Hotel_Coding}/>
-                            <div className="overlay">
-                                <div className="portfolio-item-meta">
-                                    <h5>Hotel Coding</h5>
-                                    <p>Handlebars, Node.js, MySQL, CSS, JS, Heroku, npm libraries: dotenv, express, express-handlebars, express-session, bcrypt, bad-words</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
             </div>
         </div>
 

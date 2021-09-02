@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
 import {
     BrowserRouter as Router,
     Switch,
@@ -10,6 +10,8 @@ import {
   import About from './Components/About';
   import Contact from './Components/Contact';
   import Portfolio from './Components/Portfolio';
+  // import SinglePagePDFViewer from "./Components/resume/single_page";
+  // import samplePDF from "./Components/resume/Nikola_Resume.pdf";
   // import Resume from './Components/Resume';
 
   function App() {
@@ -30,6 +32,7 @@ import {
             </li>
             {/* <li>
               <Link to="/resume">Resume</Link>
+              <SinglePagePDFViewer pdf={samplePDF} />
             </li> */}
           </ul>
         </nav>

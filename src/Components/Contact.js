@@ -7,16 +7,9 @@ const Contact = () => {
     return (
         <section id="contact">
         <div className="row">
-            
-            <div className="two columns header-col">
-                <h1>
-                    <span>Get in touch.</span>
-                </h1>
-            </div>
             <div className="ten columns">
-                <p className="lead">Feel free to contact me via email, this form or Linkedin</p>
+                <p className="lead">Feel free to contact me via email, phone or Linkedin</p>
             </div>
-            
         </div>
 
         <div className="row">
@@ -66,7 +59,7 @@ const Contact = () => {
 
                         <div>
                             <h4>Resume</h4>
-                            <a class="nav-link active" aria-current="page" href={Resume}>Resume</a>
+                            <a class="nav-link active" aria-current="page" href={Resume}>Download PDF</a>
                         </div>
 
                         <div className = "widget widget_contact">
