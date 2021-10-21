@@ -1,5 +1,5 @@
 import React from 'react';
-// import ReactDOM from 'react-dom';
+
 import {
     BrowserRouter as Router,
     Switch,
@@ -10,9 +10,7 @@ import {
   import About from './Components/About';
   import Contact from './Components/Contact';
   import Portfolio from './Components/Portfolio';
-  // import SinglePagePDFViewer from "./Components/resume/single_page";
-  // import samplePDF from "./Components/resume/Nikola_Resume.pdf";
-  // import Resume from './Components/Resume';
+  import Resume from './Components/Resume';
 
   function App() {
     return (
@@ -30,17 +28,16 @@ import {
             <li>
               <Link to="/portfolio">Portfolio</Link>
             </li>
-            {/* <li>
+            <li>
               <Link to="/resume">Resume</Link>
-              <SinglePagePDFViewer pdf={samplePDF} />
-            </li> */}
+            </li>
           </ul>
         </nav>
         <Switch>
-            <Route path = '/contact' component={Contact}/>
-            <Route path='/portfolio' component = {Portfolio}/>
-            <Route path ='/' component={About}/>
-            {/* <Route path='/resume' component = {Resume} /> */}
+            <Route path = '/contact' component= {Contact}/>
+            <Route path='/portfolio' component= {Portfolio}/>
+            <Route path='/resume' component= {Resume}/>
+            <Route path ='/' component= {About}/>
         </Switch>
            </div>
            </Router>

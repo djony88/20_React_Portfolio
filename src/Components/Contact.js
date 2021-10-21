@@ -17,7 +17,7 @@ const Contact = () => {
             <div className= "eight columns">
             <form action method="post" id="contactForm" name="contactForm">
                 <fieldset>
-                    <div>
+                    {/* <div>
                         <label for="contactName">
                             "Name"
                             <span className="required">*</span>
@@ -44,13 +44,13 @@ const Contact = () => {
                             <span className="required">*</span>
                         </label>
                         <textarea cols="50" id="contactMessage" name="contactMessage"></textarea>
-                    </div>
-                    <div>
+                    </div> */}
+                    {/* <div>
                         <button className="submit">Submit</button>
                         <span id="image-loader">
-                            <img alt src="img/"></img>
+                            <img alt="img/"></img>
                         </span>
-                    </div>
+                    </div> */}
                     <aside className = "four columns footer-widgets">
                         <div className = "widget widget_contact">
                             <h4>Phone Number</h4>
@@ -63,13 +63,17 @@ const Contact = () => {
                         </div>
 
                         <div className = "widget widget_contact">
-                            <h4>Email</h4>
-                            <a className="email" aria-current="page" href="mailto: 88djony@gmail.com"> 88djony@gmail.com</a>
+                            <h4>Contact Me</h4>
+                            <a className="email" aria-current="page" href="mailto: 88djony@gmail.com"> Email</a>
                         </div>
 
                         <div className = "widget widget_contact">
                             <a aria-current="page" href="https://www.linkedin.com/in/nikola-stamenkovic?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BP0OBfJUiRVquA%2B%2BHZ1bBuw%3D%3D"> LinkedIn</a>
                             {/* <SocialIcon url="https://www.linkedin.com/in/nikola-stamenkovic?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BP0OBfJUiRVquA%2B%2BHZ1bBuw%3D%3D" /> */}
+                        </div>
+
+                        <div className = "widget widget_contact">
+                            <a href="https://github.com/djony88" class="GitHub" data-show-count="false"> GitHub</a>
                         </div>
 
                         <div className = "widget widget_contact">

@@ -17,133 +17,141 @@ const Portfolio = () => {
         <div className="row">
             
             <div className="columns collapsed">
-                <h1>PROJECTS</h1>
-                <div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-thirds cf">
+             <h1>PROJECTS</h1>
+             <p><div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-thirds cf">
                     <div className="item-wrap">
-                        <a href="https://news-hawker.herokuapp.com/" target="_blank" title="Weather App" rel="noreferrer">
-                            <img alt="News Hawker" src={News_Hawker}/>
                             <div className="overlay">
                                 <div className="portfolio-item-meta">
                                     <h5>News Hawker</h5>
-                                    <p>MERN full-stack(Mongoose, Express, React, and Node), Apollo, gNews API, Lordicon, JS, CSS</p>
+                                    <a href="https://github.com/maxwellstickels/News_Hawker" target="_blank" title="News Hawker" rel="noreferrer">GitHub Page</a>
                                 </div>
                             </div>
+                        <a href="https://news-hawker.herokuapp.com/" target="_blank" title="News Hawker" rel="noreferrer">
+                            <img alt="News Hawker" src={News_Hawker}/>
+                                    <p>MERN full-stack(Mongoose, Express, React, and Node), Apollo, gNews API, Lordicon, JS, CSS</p>
                         </a>
                     </div>
-                </div>
+                </div></p>
 
-                <div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-thirds cf">
+                <p><div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-thirds cf">
                     <div className="item-wrap">
+                        <div className="portfolio-item-meta">
+                            <h5>Hotel Coding</h5>
+                                <a href="https://github.com/maxwellstickels/Hotel_Reservations" target="_blank" title="Hotel Coding" rel="noreferrer"> GitHub Page</a>
+                        </div>
                         <a href="https://hotel-coding.herokuapp.com/" target="_blank" title="Hotel Coding" rel="noreferrer">
                             <img alt="Hotel Coding" src={Hotel_Coding}/>
+                                <p>Handlebars, Node.js, MySQL, CSS, JS, Heroku, npm libraries: dotenv, express, express-handlebars, express-session, bcrypt, bad-words</p>
                             <div className="overlay">
-                                <div className="portfolio-item-meta">
-                                    <h5>Hotel Coding</h5>
-                                    <p>Handlebars, Node.js, MySQL, CSS, JS, Heroku, npm libraries: dotenv, express, express-handlebars, express-session, bcrypt, bad-words</p>
-                                </div>
                             </div>
                         </a>
                     </div>
-                </div>
+                </div></p>
 
-                <div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-thirds cf">
+                <p><div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-thirds cf">
                     <div className="item-wrap">
+                            <h5>Work Day Scheduler</h5>
+                            <a href="https://github.com/djony88/Work_Day_Scheduler" target="_blank" title="Work Day Scheduler" rel="noreferrer"> GitHub Page</a>
                         <a href="https://djony88.github.io/05_Work_Day_Scheduler/" target="_blank" title="Work Day Scheduler" rel="noreferrer">
                             <img alt="Work Day Scheduler" src={Work_Day_Scheduler}/>
                             <div className="overlay">
                                 <div className="portfolio-item-meta">
-                                    <h5>Work Day Scheduler</h5>
                                     <p>HTML, CSS, JS</p>
                                 </div>
                             </div>
                         </a>
                     </div>
-                </div>
+                </div></p>
 
-                <div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-thirds cf">
+                <p><div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-thirds cf">
                     <div className="item-wrap">
+                            <h5>Weather App</h5>
+                            <a href="https://github.com/djony88/Weather_App" target="_blank" title="Weather app" rel="noreferrer"> GitHub Page</a>
                         <a href="https://djony88.github.io/06_Weather_App/" target="_blank" title="Weather App" rel="noreferrer">
                             <img alt="Weather App" src={Weather_App}/>
                             <div className="overlay">
                                 <div className="portfolio-item-meta">
-                                    <h5>Weather App</h5>
                                     <p>HTML, CSS, JS, API, Ajax</p>
                                 </div>
                             </div>
                         </a>
                     </div>
-                </div>
+                </div></p>
 
-                <div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-thirds cf">
+                <p><div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-thirds cf">
                     <div className="item-wrap">
+                            <h5>Movie Buffs</h5>
+                            <a href="https://github.com/JG-77/Movie-Buffs-Group-Project" target="_blank" title="Movie Buffs" rel="noreferrer"> GitHub Page</a>
                         <a href="https://jg-77.github.io/Movie-Buffs-Group-Project/?" target="_blank" title="Movie Buffs" rel="noreferrer">
                             <img alt="Movie Buffs" src={Movie_Buffs}/>
                             <div className="overlay">
                                 <div className="portfolio-item-meta">
-                                    <h5>Movie Buffs</h5>
                                     <p>HTML, CSS, JS, API, Ajax, JQuery, SweetAlerts2, Pure CSS, Media Query</p>
                                 </div>
                             </div>
                         </a>
                     </div>
-                </div>
+                </div></p>
 
-                <div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-thirds cf">
+                <p><div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-thirds cf">
                     <div className="item-wrap">
+                            <h5>README Generator GitHub Page</h5>
                         <a href="https://github.com/djony88/10_README_Generator" target="_blank" title="README Generator" rel="noreferrer">
                             <img alt="README Generator" src={README_generator}/>
                             <div className="overlay">
                                 <div className="portfolio-item-meta">
-                                    <h5>README Generator</h5>
                                     <p>Node.js</p>
                                 </div>
                             </div>
                         </a>
                     </div>
-                </div>
+                </div></p>
 
-                <div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-thirds cf">
+                <p><div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-thirds cf">
                     <div className="item-wrap">
+                            <h5>Note Taker App</h5>
+                            <a href="https://github.com/djony88/Note_Taker_App" target="_blank" title="Note Taker App" rel="noreferrer"> GitHub Page</a>
                         <a href="https://damp-river-55680.herokuapp.com/" target="_blank" title="Note Taker App" rel="noreferrer">
                             <img alt="Note Taker App" src={Notes_App}/>
                             <div className="overlay">
                                 <div className="portfolio-item-meta">
-                                    <h5>Note Taker App</h5>
                                     <p>HTML, CSS, JS, Node.js, Express, Heroku </p>
                                 </div>
                             </div>
                         </a>
                     </div>
-                </div>
+                </div></p>
 
-                <div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-thirds cf">
+                <p><div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-thirds cf">
                     <div className="item-wrap">
-                        <a href="https://github.com/djony88/12_Employee_Tracker" target="_blank" title="Employee Tracker" rel="noreferrer">
+                            <h5>Employee Tracker GitHub Page</h5>
+                            <a href="https://github.com/djony88/12_Employee_Tracker" target="_blank" title="Employee Tracker" rel="noreferrer">
                             <img alt="Employee Tracker" src={Employee_Tracker}/>
                             <div className="overlay">
                                 <div className="portfolio-item-meta">
-                                    <h5>Employee Tracker</h5>
                                     <p>Node.js, MySQL</p>
                                 </div>
                             </div>
                         </a>
                     </div>
                 </div>
+                </p>
 
-                <div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-thirds cf">
+                <p><div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-thirds cf">
                     <div className="item-wrap">
+                            <h5>Tech Blog App</h5>
+                            <a href="https://github.com/djony88/Model-View-Controller_MVC_Tech_Blog" target="_blank" title="Teck Blog App" rel="noreferrer"> GitHub Page</a>
                         <a href="https://gentle-sands-99944.herokuapp.com/" target="_blank" title="Tech Blog App" rel="noreferrer">
                             <img alt="Tech Blog App" src={Tech_Blog_App}/>
                             <div className="overlay">
                                 <div className="portfolio-item-meta">
-                                    <h5>Tech Blog App</h5>
                                     <p>Handlebars, Node.js, MySQL, CSS, JS</p>
                                 </div>
                             </div>
                         </a>
                     </div>
                 </div>
-
+                </p>
             </div>
         </div>
 
