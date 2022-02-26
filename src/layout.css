@@ -619,11 +619,7 @@ ul#nav li.current a {
 }
 .flexslider .slides > li {
   display: none;
-<<<<<<< HEAD
   -webkit-backface-visibility: hidden;
-=======
-  /* -webkit-backface-visibility: hidden; */
->>>>>>> 66bd502749cbb7217316efb563b60b6d6f5dd6d7
 }
 .flex-container {
   zoom: 1;
@@ -728,11 +724,7 @@ ul#nav li.current a {
   margin: 12px 0;
   color: #ebeeee;
   display: inline-block;
-<<<<<<< HEAD
   float: left;
-=======
-  /* float: left; */
->>>>>>> 66bd502749cbb7217316efb563b60b6d6f5dd6d7
   width: 26%;
 }
 #contact input,
