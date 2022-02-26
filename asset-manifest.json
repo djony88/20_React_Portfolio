@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/20_React_Portfolio/static/css/main.e4a6498f.chunk.css",
-    "main.js": "/20_React_Portfolio/static/js/main.d4a47497.chunk.js",
-    "main.js.map": "/20_React_Portfolio/static/js/main.d4a47497.chunk.js.map",
+    "main.css": "/20_React_Portfolio/static/css/main.0c9b567e.chunk.css",
+    "main.js": "/20_React_Portfolio/static/js/main.cd1b8265.chunk.js",
+    "main.js.map": "/20_React_Portfolio/static/js/main.cd1b8265.chunk.js.map",
     "runtime-main.js": "/20_React_Portfolio/static/js/runtime-main.8159c786.js",
     "runtime-main.js.map": "/20_React_Portfolio/static/js/runtime-main.8159c786.js.map",
     "static/js/2.8a7206e1.chunk.js": "/20_React_Portfolio/static/js/2.8a7206e1.chunk.js",
     "static/js/2.8a7206e1.chunk.js.map": "/20_React_Portfolio/static/js/2.8a7206e1.chunk.js.map",
     "index.html": "/20_React_Portfolio/index.html",
-    "static/css/main.e4a6498f.chunk.css.map": "/20_React_Portfolio/static/css/main.e4a6498f.chunk.css.map",
+    "static/css/main.0c9b567e.chunk.css.map": "/20_React_Portfolio/static/css/main.0c9b567e.chunk.css.map",
     "static/js/2.8a7206e1.chunk.js.LICENSE.txt": "/20_React_Portfolio/static/js/2.8a7206e1.chunk.js.LICENSE.txt",
     "static/media/Employee_ Tracker.af7668b3.gif": "/20_React_Portfolio/static/media/Employee_ Tracker.af7668b3.gif",
     "static/media/Hotel_Coding.433c52c3.PNG": "/20_React_Portfolio/static/media/Hotel_Coding.433c52c3.PNG",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.8159c786.js",
     "static/js/2.8a7206e1.chunk.js",
-    "static/css/main.e4a6498f.chunk.css",
-    "static/js/main.d4a47497.chunk.js"
+    "static/css/main.0c9b567e.chunk.css",
+    "static/js/main.cd1b8265.chunk.js"
   ]
 }
