@@ -253,8 +253,13 @@ h6 {
 }
 
 p {
+<<<<<<< HEAD
   /* background-color: #879292; */
   /* border: 3px solid #000000; */
+=======
+  background-color: #879292;
+  border: 3px solid #000000;
+>>>>>>> 66bd502749cbb7217316efb563b60b6d6f5dd6d7
   margin: 3 3 30px 0;
   padding: 10px;
   border-radius: 10px;
@@ -531,11 +536,16 @@ dd {
 }
 
 img {
+<<<<<<< HEAD
   max-width: 80%;
+=======
+  max-width: 90%;
+>>>>>>> 66bd502749cbb7217316efb563b60b6d6f5dd6d7
   height: auto;
   /* width: 300px; */
   /* height: 160px; */
   margin-left: 60px;
+<<<<<<< HEAD
   margin-top: 30px;
 }
 
@@ -548,11 +558,15 @@ img {
   margin-top: 30px;
 }
 
+=======
+}
+>>>>>>> 66bd502749cbb7217316efb563b60b6d6f5dd6d7
 img.pull-right {
   margin: 12px 0px 0px 18px;
 }
 img.pull-left {
   margin: 12px 18px 0px 0px;
+<<<<<<< HEAD
 }
 
 .badge {
@@ -567,6 +581,8 @@ img.pull-left {
   transform: scale(1.2);
   transition: 2s ease;
   border-radius: 80px 50px 80px 50px;
+=======
+>>>>>>> 66bd502749cbb7217316efb563b60b6d6f5dd6d7
 }
 
 .button,
@@ -649,7 +665,11 @@ select {
   margin: 0 0 24px 0;
   border: 0;
   outline: none;
+<<<<<<< HEAD
   vertical-align: middle;
+=======
+  /* vertical-align: middle; */
+>>>>>>> 66bd502749cbb7217316efb563b60b6d6f5dd6d7
   min-width: 225px;
   max-width: 100%;
   font-size: 15px;
@@ -694,6 +714,7 @@ input[type="checkbox"] {
 }
 
 .row {
+<<<<<<< HEAD
   /* width: 96%;
    max-width: auto;
    margin: 20px auto; */
@@ -705,6 +726,11 @@ input[type="checkbox"] {
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
   justify-content: center;
+=======
+  width: 96%;
+  max-width: auto;
+  margin: 20px auto;
+>>>>>>> 66bd502749cbb7217316efb563b60b6d6f5dd6d7
 }
 
 .ie .row {
@@ -732,6 +758,7 @@ input[type="checkbox"] {
 
 .column,
 .columns {
+<<<<<<< HEAD
   /* position: relative;
   padding: 0 20px;
   min-height: 1px;
@@ -781,6 +808,13 @@ input[type="checkbox"] {
   border-radius: 50px 300px 50px 300px;
 }
 
+=======
+  position: relative;
+  padding: 0 20px;
+  min-height: 1px;
+  float: left;
+}
+>>>>>>> 66bd502749cbb7217316efb563b60b6d6f5dd6d7
 .column.centered,
 .columns.centered {
   float: none;

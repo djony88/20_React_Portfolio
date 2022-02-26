@@ -17,6 +17,7 @@ const Portfolio = () => {
             <div className="columns collapsed">
              <h1>PROJECTS</h1>
              <p><div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-thirds cf">
+<<<<<<< HEAD
                     <div className="card-1">
                         <div className="overlay">
                             <div className="portfolio-item-meta">
@@ -33,12 +34,34 @@ const Portfolio = () => {
 
             <p><div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-thirds cf">
                     <div className="card-1">
+=======
+                    <div className="item-wrap">
+                            <div className="overlay">
+                                <div className="portfolio-item-meta">
+                                    <h5>News Hawker</h5>
+                                    <a href="https://github.com/maxwellstickels/News_Hawker" target="_blank" title="News Hawker" rel="noreferrer">GitHub Page</a>
+                                </div>
+                            </div>
+                        <a href="https://news-hawker.herokuapp.com/" target="_blank" title="News Hawker" rel="noreferrer">
+                            <img alt="News Hawker" src={News_Hawker}/>
+                                    <p>MERN full-stack(Mongoose, Express, React, and Node), Apollo, gNews API, Lordicon, JS, CSS</p>
+                        </a>
+                    </div>
+                </div></p>
+
+                <p><div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-thirds cf">
+                    <div className="item-wrap">
+>>>>>>> 66bd502749cbb7217316efb563b60b6d6f5dd6d7
                         <div className="portfolio-item-meta">
                             <h5>Hotel Coding</h5>
                                 <a href="https://github.com/maxwellstickels/Hotel_Reservations" target="_blank" title="Hotel Coding" rel="noreferrer"> GitHub Page</a>
                         </div>
                         <a href="https://hotel-coding.herokuapp.com/" target="_blank" title="Hotel Coding" rel="noreferrer">
+<<<<<<< HEAD
                             <img class="img1" alt="Hotel Coding" src={Hotel_Coding}/>
+=======
+                            <img alt="Hotel Coding" src={Hotel_Coding}/>
+>>>>>>> 66bd502749cbb7217316efb563b60b6d6f5dd6d7
                                 <p>Handlebars, Node.js, MySQL, CSS, JS, Heroku, npm libraries: dotenv, express, express-handlebars, express-session, bcrypt, bad-words</p>
                             <div className="overlay">
                             </div>
@@ -47,7 +70,11 @@ const Portfolio = () => {
                 </div></p>
 
                 <p><div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-thirds cf">
+<<<<<<< HEAD
                     <div className="card-1">
+=======
+                    <div className="item-wrap">
+>>>>>>> 66bd502749cbb7217316efb563b60b6d6f5dd6d7
                             <h5>Work Day Scheduler</h5>
                             <a href="https://github.com/djony88/Work_Day_Scheduler" target="_blank" title="Work Day Scheduler" rel="noreferrer"> GitHub Page</a>
                         <a href="https://djony88.github.io/05_Work_Day_Scheduler/" target="_blank" title="Work Day Scheduler" rel="noreferrer">
@@ -62,7 +89,11 @@ const Portfolio = () => {
                 </div></p>
 
                 <p><div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-thirds cf">
+<<<<<<< HEAD
                     <div className="card-1">
+=======
+                    <div className="item-wrap">
+>>>>>>> 66bd502749cbb7217316efb563b60b6d6f5dd6d7
                             <h5>Weather App</h5>
                             <a href="https://github.com/djony88/Weather_App" target="_blank" title="Weather app" rel="noreferrer"> GitHub Page</a>
                         <a href="https://djony88.github.io/06_Weather_App/" target="_blank" title="Weather App" rel="noreferrer">
@@ -77,7 +108,11 @@ const Portfolio = () => {
                 </div></p>
 
                 <p><div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-thirds cf">
+<<<<<<< HEAD
                     <div className="card-1">
+=======
+                    <div className="item-wrap">
+>>>>>>> 66bd502749cbb7217316efb563b60b6d6f5dd6d7
                             <h5>Movie Buffs</h5>
                             <a href="https://github.com/JG-77/Movie-Buffs-Group-Project" target="_blank" title="Movie Buffs" rel="noreferrer"> GitHub Page</a>
                         <a href="https://jg-77.github.io/Movie-Buffs-Group-Project/?" target="_blank" title="Movie Buffs" rel="noreferrer">
@@ -92,7 +127,11 @@ const Portfolio = () => {
                 </div></p>
 
                 <p><div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-thirds cf">
+<<<<<<< HEAD
                     <div className="card-1">
+=======
+                    <div className="item-wrap">
+>>>>>>> 66bd502749cbb7217316efb563b60b6d6f5dd6d7
                             <h5>README Generator GitHub Page</h5>
                         <a href="https://github.com/djony88/10_README_Generator" target="_blank" title="README Generator" rel="noreferrer">
                             <img class="img1" alt="README Generator" src={README_generator}/>
@@ -106,7 +145,11 @@ const Portfolio = () => {
                 </div></p>
 
                 <p><div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-thirds cf">
+<<<<<<< HEAD
                     <div className="card-1">
+=======
+                    <div className="item-wrap">
+>>>>>>> 66bd502749cbb7217316efb563b60b6d6f5dd6d7
                             <h5>Note Taker App</h5>
                             <a href="https://github.com/djony88/Note_Taker_App" target="_blank" title="Note Taker App" rel="noreferrer"> GitHub Page</a>
                         <a href="https://damp-river-55680.herokuapp.com/" target="_blank" title="Note Taker App" rel="noreferrer">
@@ -121,10 +164,17 @@ const Portfolio = () => {
                 </div></p>
 
                 <p><div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-thirds cf">
+<<<<<<< HEAD
                     <div className="card-1">
                             <h5>Employee Tracker GitHub Page</h5>
                             <a href="https://github.com/djony88/12_Employee_Tracker" target="_blank" title="Employee Tracker" rel="noreferrer">
                             <img class="img1" alt="Employee Tracker" src={Employee_Tracker}/>
+=======
+                    <div className="item-wrap">
+                            <h5>Employee Tracker GitHub Page</h5>
+                            <a href="https://github.com/djony88/12_Employee_Tracker" target="_blank" title="Employee Tracker" rel="noreferrer">
+                            <img alt="Employee Tracker" src={Employee_Tracker}/>
+>>>>>>> 66bd502749cbb7217316efb563b60b6d6f5dd6d7
                             <div className="overlay">
                                 <div className="portfolio-item-meta">
                                     <p>Node.js, MySQL</p>
@@ -136,7 +186,11 @@ const Portfolio = () => {
                 </p>
 
                 <p><div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-thirds cf">
+<<<<<<< HEAD
                     <div className="card-1">
+=======
+                    <div className="item-wrap">
+>>>>>>> 66bd502749cbb7217316efb563b60b6d6f5dd6d7
                             <h5>Tech Blog App</h5>
                             <a href="https://github.com/djony88/Model-View-Controller_MVC_Tech_Blog" target="_blank" title="Teck Blog App" rel="noreferrer"> GitHub Page</a>
                         <a href="https://gentle-sands-99944.herokuapp.com/" target="_blank" title="Tech Blog App" rel="noreferrer">
@@ -150,8 +204,12 @@ const Portfolio = () => {
                     </div>
                 </div>
                 </p>
+<<<<<<< HEAD
 
             </div> 
+=======
+            </div>
+>>>>>>> 66bd502749cbb7217316efb563b60b6d6f5dd6d7
         </div>
     )
 }

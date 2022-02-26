@@ -1,7 +1,39 @@
 import React from 'react';
-// const { SocialIcon } = require('react-social-icons');
-// React.render(<SocialIcon url="https://www.linkedin.com/in/nikola-stamenkovic/" />, document.body);
 import Resume from '../Components/resume/Nikola_Resume.pdf';
+// import Email from '../../src/img/Icons/email.png';
+// import LinkedIn from '../../src/img/Icons/LinkedIn.png';
+// import GitHub from '../../src/img/Icons/GitHub-Mark.png';
+// import Twitter from '../../src/img/Icons/Twitter.png';
+
+// const styles = {
+//     footing: {
+//         // height: '100px',
+//         width: '100%',
+//         backgroundColor: 'black',
+//         // lineHeight: '60px',
+//         paddingBottom: '45px',
+//       },
+//       footerHeading: {
+//         textAlign: 'center',
+//         color: 'white',
+//       },
+//       ul: {
+//         listStyleType: 'none',
+//         //display: 'inline-flex',
+//         flexWrap: 'flex',
+//       },
+//       anchor: {
+//         marginRight: '75px',
+//         color: 'rgb(0, 255, 213)',
+//         textDecoration: 'none',
+//       },
+//       icon: {
+//         height: '100px',
+//         width: '100px',
+//         marginTop: '5px',
+//         marginRight: '-10px',
+//       },
+// }
 
 const Contact = () => {
     return (
@@ -13,10 +45,10 @@ const Contact = () => {
         </div>
 
         <div className="row">
-            
             <div className= "eight columns">
             <form action method="post" id="contactForm" name="contactForm">
                 <fieldset>
+<<<<<<< HEAD
                     <div>
                         <label for="contactName">
                             "Name"
@@ -51,6 +83,8 @@ const Contact = () => {
                             <img src="img/"></img>
                         </span>
                     </div>
+=======
+>>>>>>> 66bd502749cbb7217316efb563b60b6d6f5dd6d7
                     <aside className = "four columns footer-widgets">
                         <div className = "widget widget_contact">
                             <h4>Phone Number</h4>
@@ -63,19 +97,23 @@ const Contact = () => {
                         </div>
 
                         <div className = "widget widget_contact">
-                            <h4>Email</h4>
-                            <a className="email" aria-current="page" href="mailto: 88djony@gmail.com"> 88djony@gmail.com</a>
+                            <h4>Contact Me</h4>
+                            {/* <img src={Email} style={styles.icon} alt="Email icon" /> */}
+                            <a className="email" aria-current="page" href="mailto: 88djony@gmail.com"> Email</a>
                         </div>
 
                         <div className = "widget widget_contact">
                             <a aria-current="page" href="https://www.linkedin.com/in/nikola-stamenkovic?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BP0OBfJUiRVquA%2B%2BHZ1bBuw%3D%3D"> LinkedIn</a>
-                            {/* <SocialIcon url="https://www.linkedin.com/in/nikola-stamenkovic?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BP0OBfJUiRVquA%2B%2BHZ1bBuw%3D%3D" /> */}
+
+                        </div>
+
+                        <div className = "widget widget_contact">
+                            <a href="https://github.com/djony88" class="GitHub" data-show-count="false"> GitHub</a>
                         </div>
 
                         <div className = "widget widget_contact">
                             <a href="https://twitter.com/StamNikola?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false"> Twitter</a>
                         </div>
-
                     </aside>
                 </fieldset>
             </form>
