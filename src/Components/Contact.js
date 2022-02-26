@@ -48,7 +48,7 @@ const Contact = () => {
                     <div>
                         <button className="submit">Submit</button>
                         <span id="image-loader">
-                            <img alt src="img/"></img>
+                            <img src="img/"></img>
                         </span>
                     </div>
                     <aside className = "four columns footer-widgets">
