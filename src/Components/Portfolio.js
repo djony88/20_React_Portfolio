@@ -13,7 +13,7 @@ import Hotel_Coding from '../img/Hotel_Coding.PNG';
 
 const Portfolio = () => {
     return (
-        <div className="row">
+        <div className="row2">
             <div className="columns collapsed">
              <h1>PROJECTS</h1>
              <p><div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-thirds cf">
@@ -50,7 +50,7 @@ const Portfolio = () => {
                     <div className="card-1">
                             <h5>Work Day Scheduler</h5>
                             <a href="https://github.com/djony88/Work_Day_Scheduler" target="_blank" title="Work Day Scheduler" rel="noreferrer"> GitHub Page</a>
-                        <a href="https://djony88.github.io/05_Work_Day_Scheduler/" target="_blank" title="Work Day Scheduler" rel="noreferrer">
+                        <a href="https://djony88.github.io/Work_Day_Scheduler/" target="_blank" title="Work Day Scheduler" rel="noreferrer">
                             <img class="img1" alt="Work Day Scheduler" src={Work_Day_Scheduler}/>
                             <div className="overlay">
                                 <div className="portfolio-item-meta">

@@ -3,7 +3,9 @@ import React from 'react';
 
 const Resume = () => {
     return (
-        <div className="container">
+        <div className="row1">
+        <div className='card-1'>
+        {/* <div className="container"> */}
             <div className="body">
                 <h2>
                     <span class="badge bg-info text-dark"> Front-End Skills</span>
@@ -49,6 +51,8 @@ const Resume = () => {
                 </p>
             </div>
         </div>
+    </div>
+        // </div>
     )
     
 }
